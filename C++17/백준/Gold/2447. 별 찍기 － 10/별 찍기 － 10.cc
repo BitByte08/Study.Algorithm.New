@@ -24,6 +24,9 @@ void solver(vector<vector<char>> &result, int n, int start = 0, int end = 0) {
 }
 
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+    
     int n; cin >> n;
     vector<vector<char>> result(n, vector<char>(n, '*'));
 
